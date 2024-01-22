@@ -79,7 +79,7 @@
 //    <input type="button" value="Decrescer Até 1" id="btDecrescer">
 //  <h3 id="outResposta"></h3>
 
-let maiorpeso = 0;
+/*let maiorpeso = 0;
 let total = 0;
 let maiorcem = 0;
 let peso = 0;
@@ -174,3 +174,79 @@ for(let i=1; i<=10; i++){
 
       alert("\nLula:" + soma1 + "\nBolsonaro" + soma2 + "\nCiro" + soma3 + "\nTiririca" + soma4 + "\nVoto Nulo" + soma5 + "\nVoto Branco" + soma6)
 */
+
+
+/*22/01/24*/
+
+/*
+1- Elabore um algoritmo que calcule o que deve ser pago por um produto, 
+considerando o preço normal de etiqueta e a escolha da condição de pagamento.
+ Utilize os códigos da tabela a seguir
+para ler qual a condição de pagamento escolhida e efetuar o cálculo adequado.
+Código Condição de pagamento
+
+1 À vista em dinheiro ou cheque, recebe 10% de desconto
+2 À vista no cartão de crédito, recebe 15% de desconto
+3 Em duas vezes, preço normal de etiqueta sem juros
+4 Em duas vezes, preço normal de etiqueta mais juros de 10% */
+
+
+/*
+let prod = Number(prompt('Digite o valor normal do produto'));
+let cond = Number(prompt('Digite o código de acordo com a condição de pagamento desejada:\n1. À vista em dinheiro ou cheque, 10% de desconto\n2. À vista no cartão de crédito, 15% de desconto.\n3. Em duas vezes, preço normal de etiqueta sem juros.\n4. Em duas vezes, preço normal de etiqueta mais juros de 10%'));
+let desc
+ 
+if (cond == 1){
+    desc = prod-(prod*0.1)
+ 
+}
+else if(cond == 2){
+    desc = prod-(prod*0.15)
+}
+else if (cond == 3){
+    desc = prod
+}
+else if (cond == 4){
+    desc = prod*1.1
+}
+else{
+    alert(prompt("Informe uma opção válida"))
+}
+ 
+alert("O total pago será R$"+desc)
+
+*/
+
+/*faça um algoritmo que receba 3 notas, calcule a média e ao final 
+classifique conforme abaixo 
+>= 9 A
+>= 7 e < 9 B
+>= 6 e < 7 C
+>= 4 e < 6 D
+< 4 E
+*/
+
+/*let nota1 = Number(prompt('Digite sua primeira nota'))
+let nota2 = Number(prompt('Digite sua segunda nota'))
+let nota3 = Number(prompt('Digite sua terceira nota'))
+let media = (nota1 + nota2 + nota3) /3;
+
+if (media >= 9) {
+  alert("Sua nota é: A");
+} else if (media >= 7) {
+  alert("Sua nota é: B");
+} else if (media >= 6) {
+  alert("Sua nota é: C");
+} else if (media >= 4) {
+  alert("Sua nota é: D");
+} else {
+  alert("Sua nota é: E");
+}
+*/
+
+
+
+
+
+
+
