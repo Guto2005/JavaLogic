@@ -245,8 +245,96 @@ if (media >= 9) {
 */
 
 
+/* 23/01/24 */
+
+/*  let num = parseFloat(prompt("escolha um lanche: " + "\n" + "100-Cachorro quente" + "\n" + "101-Bauru Simples" + "\n" + "102-Bauru com ovo" + "\n" + "103-Hamburguer" + "\n" + "104-CheeseBurguer" + "\n" + "105-Refrigerante"));
+
+let quantidade = parseInt(prompt("Digite a quantidade desejada"));
+
+let preço;
+
+switch(num){
+  case 100:
+    preço = 1.70
+    break;
+  case 101:
+    preço = 2.30
+    break;
+  case 102:
+    preço = 2.60
+    break;
+  case 103:
+    preço = 2.40
+    break;
+  case 104:
+    preço = 2.50
+    break;
+  case 105:
+    preço = 1.00
+    break;
+
+    default:
+      alert("Volte e escolha um número de 1 a 6 do nosso cardápio")
+}
+
+if (preço !== undefined) {
+    let total = quantidade * preço;
+    alert("Total a pagar: R$" + total)
+}
+
+*/
+
+/*
+var tabuada = parseFloat (prompt("Digite um número"))
+var tamTabuada = parseFloat (prompt("Digite o tamanho da tabuada"))
+var i = 1;
+
+while(indice <= tamTabuada){
+   document.write(tabuada + "X" + indice + " = " +(indice * tabuada) + "<br>");
+   indice++
+}
+document.write("Fim da tabuada");
+*/
 
 
-
-
-
+let jair = 0
+let carlos = 0
+let neves = 0
+let nulo = 0
+let branco = 0
+let voto = parseInt(prompt("Digite seu voto: \n 1. Candidato Jair Rodrigues \n 2. Candidato Carlos Luz \n 3. Candidato Neves Rocha \n 4. Nulo \n 5. Branco"))
+ 
+while(voto != 6){
+    
+    switch(voto){
+        case 1:
+        jair++
+        break
+ 
+        case 2:
+        carlos++
+        break
+ 
+        case 3:
+        neves++
+        break
+ 
+        case 4:
+        nulo++
+        break
+ 
+        case 5:
+        branco++
+        break
+ 
+ 
+    }
+ 
+    voto = parseInt(prompt("Digite seu voto: \n 1. Candidato Jair Rodrigues \n 2. Candidato Carlos Luz \n 3. Candidato Neves Rocha \n 4. Nulo \n 5. Branco"))
+}
+ 
+ 
+ 
+alert("Total jair  é: " + jair + "Total carlos é: " + carlos + "Total neves é: " + neves + "Total voto nulo é: " + nulo + "Total branco é: " + branco)
+ 
+ 
