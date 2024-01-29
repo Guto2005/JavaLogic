@@ -297,34 +297,38 @@ document.write("Fim da tabuada");
 */
 
 
-let jair = 0
-let carlos = 0
-let neves = 0
-let nulo = 0
-let branco = 0
+/* 29/01/24 */
+
+
+let um = 0
+let dois = 0
+let tres = 0
+let quatro = 0
+let cinco = 0
+let vencedor = 0
 let voto = parseInt(prompt("Digite seu voto: \n 1. Candidato Jair Rodrigues \n 2. Candidato Carlos Luz \n 3. Candidato Neves Rocha \n 4. Nulo \n 5. Branco"))
- 
+
 while(voto != 6){
     
     switch(voto){
         case 1:
-        jair++
+        um++
         break
  
         case 2:
-        carlos++
+        dois++
         break
  
         case 3:
-        neves++
+        tres++
         break
  
         case 4:
-        nulo++
+        quatro++
         break
  
         case 5:
-        branco++
+        cinco++
         break
  
  
@@ -333,8 +337,25 @@ while(voto != 6){
     voto = parseInt(prompt("Digite seu voto: \n 1. Candidato Jair Rodrigues \n 2. Candidato Carlos Luz \n 3. Candidato Neves Rocha \n 4. Nulo \n 5. Branco"))
 }
  
+if(um > dois && um > tres){
+   
+    vencedor = "Jair Rodrigues"
+
+}else if (dois > tres && dois > um){
+    vencedor = "Carlos Luz"
+}else if(tres >dois && tres > um){
+    vencedor = "Neves Rocha"
+}
+
+let total = um + dois + tres + quatro + cinco
+// transformando o total em porcentagem
+let porcentagem = total/100
+//let Pnulos1 = quatro;
+let Pnulos = parseInt(porcentagem*quatro)*100
+// Pbrancos1 = cinco
+let Pbrancos = parseInt(porcentagem*cinco)*100
  
  
-alert("Total jair  é: " + jair + "Total carlos é: " + carlos + "Total neves é: " + neves + "Total voto nulo é: " + nulo + "Total branco é: " + branco)
+alert("O total de votos foram: \n Jair Rodrigues:"+um+"\n Carlos Luz:"+dois+"\n Neves Rocha:"+tres+"\n Votos Nulos:"+Pnulos+"\n Votos Brancos:"+Pbrancos+"\n Vencedor:"+vencedor)
  
  
